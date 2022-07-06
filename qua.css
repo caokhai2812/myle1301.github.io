@@ -1,0 +1,54 @@
+body{
+    background-image: url(../anh/co4la.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.loichuc{
+         font-size: 12;
+         text-align: center;
+         color: aqua;
+         border: 1px none #b1154a;
+         
+}
+.text{
+    text-align: center;
+    color:rgb(246, 96, 188);
+    font-size:2rem;
+    white-space: pre-line;
+ 
+    margin-bottom:1px;
+    @-webkit-keyframes my {
+        0% { color: #F8CD0A; } 
+        50% { color: #fff;  } 
+        100% { color: #F8CD0A;  } 
+    }
+    @-moz-keyframes my { 
+        0% { color: #F8CD0A;  } 
+        50% { color: #fff;  }
+        100% { color: #F8CD0A;  } 
+    }
+    @-o-keyframes my { 
+        0% { color: #F8CD0A; } 
+        50% { color: #fff; } 
+        100% { color: #F8CD0A;  } 
+    }
+    @keyframes my { 
+        0% { color: #F8CD0A;  } 
+        50% { color: #fff;  }
+        100% { color: #F8CD0A;  } 
+    } 
+    
+            background:#3d3d3d;
+            font-size:24px;
+            font-weight:bold;
+        -webkit-animation: my 700ms infinite;
+        -moz-animation: my 700ms infinite; 
+        -o-animation: my 700ms infinite; 
+        animation: my 700ms infinite;
+   
+
+}
+ 
